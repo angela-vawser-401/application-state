@@ -1,0 +1,6 @@
+.Face {
+  padding: 4rem;
+  text-align: center;
+  font-size: 50vh;
+  text-shadow: -10px -10px 0 white, 10px -10px 0 white, -10px 10px 0 white, 10px 10px 0 white;
+}
