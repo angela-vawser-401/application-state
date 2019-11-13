@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Controls.css';
 
-const Controls = ({ actions, handleSelection }) => (
+const Controls = ({ actions, handleSelection, handleSave }) => (
   <div className={styles.Controls}>
     <section>
       <button onClick={() => handleSave(actions)}>Save Game</button>
