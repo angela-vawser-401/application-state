@@ -1,8 +1,8 @@
-export const getCoffees = state => state.coffees;
-export const getSnacks = state => state.snacks;
-export const getNaps = state => state.naps;
-export const getStudies = state => state.studies;
-export const getReset = state => state;
+export const getCoffees = state => state.mood.coffees;
+export const getSnacks = state => state.mood.snacks;
+export const getNaps = state => state.mood.naps;
+export const getStudies = state => state.mood.studies;
+export const getReset = state => state.mood;
 
 export const getActions = state => [
   { name: 'DRINK_COFFEE', text: 'Drink Coffee', count: getCoffees(state) },
