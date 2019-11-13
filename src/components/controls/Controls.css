@@ -1,0 +1,38 @@
+.Controls {
+  
+  header {
+    background: black;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: .5em;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  button {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0.5rem;
+    margin: 2rem 1rem 2rem 1rem;
+    border: none;
+    background-color: #0198E1;
+    color: #FFFFFF;
+    width: 170px;
+  }
+
+  button:hover {
+    box-shadow: 3px 3px 4px 1px rgba(32, 32, 32, 0.3);
+    transition: transform 100ms ease-in-out;
+    transform: translate3d(-1.5px, 1.5px, 0);
+  }
+}
