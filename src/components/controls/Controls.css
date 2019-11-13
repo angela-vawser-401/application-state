@@ -1,4 +1,19 @@
 .Controls {
+  
+  header {
+    background: black;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: .5em;
+  }
+
   section {
     text-align: center;
   }
@@ -8,7 +23,7 @@
     font-weight: 700;
     font-size: 1em;
     padding: 0.5rem;
-    margin: 4rem 1rem;
+    margin: 2rem 1rem 2rem 1rem;
     border: none;
     background-color: #0198E1;
     color: #FFFFFF;

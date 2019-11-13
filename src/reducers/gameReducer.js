@@ -1,4 +1,4 @@
-import SAVE_GAME from '../actions/gameAction';
+import { SAVE_GAME } from '../actions/gameAction';
 
 const gameState = [];
 

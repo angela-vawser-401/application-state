@@ -4,16 +4,22 @@ import styles from './Controls.css';
 
 const Controls = ({ actions, handleSelection, handleSave }) => (
   <div className={styles.Controls}>
-    <section>
-      <button onClick={() => handleSave(actions)}>Save Game</button>
-    </section>
-    <section>
-      {actions.map(({ name, text, count }) => (
-        <button key={name} onClick={() => handleSelection(name)}>
-          {text || name} {!!count && `- ${count}`}
-        </button>
-      ))}
-    </section>
+    <header>
+      <h1>THE ALCHEMY LIFE</h1>
+    </header>
+
+    <div>
+      <section id='save'>
+        <button onClick={() => handleSave(actions)}>Save Game</button>
+      </section>
+      <section>
+        {actions.map(({ name, text, count }) => (
+          <button key={name} onClick={() => handleSelection(name)}>
+            {text || name} {!!count && `- ${count}`}
+          </button>
+        ))}
+      </section>
+    </div>
   </div>
 );
 
