@@ -25,7 +25,7 @@ export const getFace = state => {
   if(isTired(state)) return '😴';
   if(isAsleep(state)) return '😪';
   if(isHyper(state)) return '🙀';
-  if(isEducated(state)) return '🤯';
+  if(isEducated(state)) return '🤓';
   if(isHungry(state)) return '😡';
   if(isSatisfied(state)) return '😋';
 
